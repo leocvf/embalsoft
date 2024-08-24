@@ -7,7 +7,7 @@ import {FormBuilder, FormGroup, FormsModule, Validators} from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { LivroService } from '../../services/livro.service';
 import { Livro } from "../../models/livro.model"
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-formularios-livro',
   standalone: true,
@@ -17,25 +17,21 @@ import { Router } from '@angular/router';
 })
 export class FormulariosLivroComponent implements OnInit  {
   livroForm: FormGroup;
-  constructor(private fb: FormBuilder,private livroservice: LivroService,private router: Router) {
+  id: string;
+
+  constructor(private fb: FormBuilder,private livroservice: LivroService,private router: Router,private route: ActivatedRoute) {
     this.livroForm = this.fb.group({
       titulo: ['', Validators.required],
       autor: ['', Validators.required],
       genero: ['', Validators.required],
       ano: [null, Validators.required]
     });
+    this.id = this.route.snapshot.paramMap.get('id')!;
   }
 
   ngOnInit(): void {
-
+   
   }
-  livro: Livro = {
-    id: 1, // Replace with appropriate default or initial values
-    titulo: 'Example Title',
-    autor: 'Author Name',
-    genero: 'Genre',
-    ano: 2024
-  };
   onSubmit() {
     if (this.livroForm.valid) {
       console.log('Data:', this.livroForm.value);
@@ -45,8 +41,10 @@ export class FormulariosLivroComponent implements OnInit  {
         genero: this.livroForm.value.genero,
         ano: this.livroForm.value.ano
       };
-      this.livroservice.addLivro(livro).subscribe();
-      this.router.navigate(['/']);
+      this.livroservice.addLivro(livro).subscribe(()=>{
+        this.router.navigate(['/']);
+
+      });
     }
 
   }

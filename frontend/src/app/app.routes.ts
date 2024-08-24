@@ -5,4 +5,5 @@ export const routes: Routes = [
     { path: '', redirectTo: '/listar-livros', pathMatch: 'full' },
     { path: 'listar-livros', component: ListarLivrosComponent },
     { path: 'formularios-livro', component: FormulariosLivroComponent },
+    { path: 'formularios-livro/:id', component: FormulariosLivroComponent },
 ];

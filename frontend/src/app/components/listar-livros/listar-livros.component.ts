@@ -4,6 +4,7 @@ import { LivroService } from '../../services/livro.service';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-listar-livros',
   standalone: true,
@@ -14,7 +15,7 @@ import { CommonModule } from '@angular/common';
 export class ListarLivrosComponent implements OnInit {
     livros: Livro[] = [];
     
-    constructor(private livroservice: LivroService){}
+    constructor(private livroservice: LivroService,private router: Router){}
     ngOnInit(): void{
       this.listaLivros();
     }
@@ -23,6 +24,9 @@ export class ListarLivrosComponent implements OnInit {
         this.livros = data;
         console.log(this.livros)
       });
+    }
+    editar(id: any){
+      this.router.navigate(['formularios-livro', id]);
     }
     excluir(id: any){
       this.livroservice.deleteLivro(id).subscribe({
