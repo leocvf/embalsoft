@@ -2,7 +2,7 @@
   {
     "ContainingType": "Livraria.Api.Controller.LivroController",
     "Method": "GetLivros",
-    "RelativePath": "api/livro",
+    "RelativePath": "api/livros",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -22,7 +22,7 @@
   {
     "ContainingType": "Livraria.Api.Controller.LivroController",
     "Method": "AddLivro",
-    "RelativePath": "api/livro",
+    "RelativePath": "api/livros",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -38,7 +38,7 @@
   {
     "ContainingType": "Livraria.Api.Controller.LivroController",
     "Method": "GetLivro",
-    "RelativePath": "api/livro/{id}",
+    "RelativePath": "api/livros/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -64,7 +64,7 @@
   {
     "ContainingType": "Livraria.Api.Controller.LivroController",
     "Method": "UpdateLivro",
-    "RelativePath": "api/livro/{id}",
+    "RelativePath": "api/livros/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -85,7 +85,7 @@
   {
     "ContainingType": "Livraria.Api.Controller.LivroController",
     "Method": "DeleteLivro",
-    "RelativePath": "api/livro/{id}",
+    "RelativePath": "api/livros/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
