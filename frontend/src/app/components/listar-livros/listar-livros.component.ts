@@ -22,7 +22,6 @@ export class ListarLivrosComponent implements OnInit {
     listaLivros(): void {
       this.livroservice.getLivros().subscribe((data: Livro[])=>{
         this.livros = data;
-        console.log(this.livros)
       });
     }
     editar(id: any){

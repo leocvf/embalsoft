@@ -17,7 +17,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class FormulariosLivroComponent implements OnInit  {
   livroForm: FormGroup;
-  id: string;
+  id: any;
 
   constructor(private fb: FormBuilder,private livroservice: LivroService,private router: Router,private route: ActivatedRoute) {
     this.livroForm = this.fb.group({
@@ -27,6 +27,16 @@ export class FormulariosLivroComponent implements OnInit  {
       ano: [null, Validators.required]
     });
     this.id = this.route.snapshot.paramMap.get('id')!;
+    if(this.id != null){
+      this.livroservice.getLivro( parseInt(this.id)).subscribe(data =>{
+        this.livroForm.setValue({
+          titulo: data.titulo,
+          autor: data.autor,
+          genero: data.genero,
+          ano: data.ano,
+        });
+      });
+    }
   }
 
   ngOnInit(): void {
@@ -34,19 +44,29 @@ export class FormulariosLivroComponent implements OnInit  {
   }
   onSubmit() {
     if (this.livroForm.valid) {
+     
       console.log('Data:', this.livroForm.value);
-      const livro: Livro = {
+      var livro: Livro = {
         titulo: this.livroForm.value.titulo,
         autor: this.livroForm.value.autor,
         genero: this.livroForm.value.genero,
         ano: this.livroForm.value.ano
       };
-      this.livroservice.addLivro(livro).subscribe(()=>{
-        this.router.navigate(['/']);
-
-      });
+      if(this.id == null){
+        this.livroservice.addLivro(livro).subscribe(()=>{
+          this.router.navigate(['/']);
+        });
+      }else{
+        livro.id = parseInt(this.id);
+        this.livroservice.updateLivro(livro.id,livro).subscribe(()=>{
+          this.router.navigate(['/']);
+        });
+      }
     }
 
+  }
+  voltar(){
+    this.router.navigate(['/']);
   }
 
 }

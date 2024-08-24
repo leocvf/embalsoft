@@ -2,15 +2,15 @@
     <div class="card-container">
         <mat-card class="card" appearance="outlined">
           <mat-card-header>
-            <mat-card-title>{{ livro.titulo }}</mat-card-title>
-            <mat-card-subtitle>{{ livro.autor }}</mat-card-subtitle>
+            <mat-card-title>Titulo: {{ livro.titulo }}</mat-card-title>
+            <mat-card-subtitle>Autor: {{ livro.autor }}</mat-card-subtitle>
           </mat-card-header>
           
           <mat-card-content>
             <p>
-              <strong>ID:</strong> {{ livro.id }}<br>
               <strong>Genero:</strong> {{ livro.genero }}<br>
-              <strong>Ano:</strong> {{ livro.ano }}
+              <strong>Ano:</strong> {{ livro.ano }}<br>
+              <strong>ID:</strong> {{ livro.id }}<br>
             </p>
           </mat-card-content>
           <mat-card-actions>
