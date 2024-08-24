@@ -1,1 +1,36 @@
-<p>formularios-livro works!</p>
+<div class="card-container">
+    <mat-card class="card" appearance="outlined">
+      <mat-card-header>
+        <mat-card-title>Cadastre um Livro</mat-card-title>
+      </mat-card-header>
+      
+      <mat-card-content>
+        <form [formGroup]="livroForm" (ngSubmit)="onSubmit()" class="example-form">
+          <mat-form-field class="example-full-width">
+            <mat-label>Título</mat-label>
+            <input matInput formControlName="titulo" placeholder="Ex. O Senhor dos Anéis">
+          </mat-form-field>
+          
+          <mat-form-field class="example-full-width">
+            <mat-label>Autor</mat-label>
+            <input matInput formControlName="autor" placeholder="Ex. J.R.R. Tolkien">
+          </mat-form-field>
+          
+          <mat-form-field class="example-full-width">
+            <mat-label>Gênero</mat-label>
+            <input matInput formControlName="genero" placeholder="Ex. Fantasia">
+          </mat-form-field>
+          
+          <mat-form-field class="example-full-width">
+            <mat-label>Ano</mat-label>
+            <input matInput type="number" formControlName="ano" placeholder="Ex. 1954">
+          </mat-form-field>
+          
+          <mat-card-actions>
+            <button mat-button type="submit">Atualizar</button>
+          </mat-card-actions>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  
