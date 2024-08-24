@@ -1,27 +1,55 @@
-# Livraria
+# Começando com o Projeto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+Este documento descreve as etapas necessárias para configurar e executar o projeto.
 
-## Development server
+## Pré-requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Certifique-se de ter as seguintes ferramentas instaladas em seu sistema antes de prosseguir:
 
-## Code scaffolding
+* **.NET Core SDK 8:** Necessário para compilar e executar a aplicação backend. [Baixe aqui](https://dotnet.microsoft.com/download/dotnet/8.0)
+* **Node.js 18:** Ambiente de execução JavaScript para o frontend. [Baixe aqui](https://nodejs.org/en/download/)
+* **Angular CLI 18.1.0:** Interface de linha de comando para desenvolvimento Angular. Instale globalmente com `npm install -g @angular/cli@18.1.0`
+* **npm-run-all:** Utilitário para executar múltiplos scripts npm em paralelo ou sequencialmente. Será instalado automaticamente durante a configuração do frontend.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Configuração do Backend (.NET)
 
-## Build
+1. **Navegue até o diretório backend:** Abra o terminal e execute o comando `cd backend`.
+2. **Restaure as dependências:** Execute `dotnet restore` para baixar todas as bibliotecas .NET necessárias.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Configuração do Frontend (Angular)
 
-## Running unit tests
+1. **Navegue até o diretório frontend:** Execute o comando `cd frontend`.
+2. **Instale as dependências:** Execute `npm install` para instalar os pacotes Node.js, incluindo o `npm-run-all`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Executando o Projeto
 
-## Running end-to-end tests
+Você pode executar o backend e o frontend separadamente ou em conjunto:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+**Executando o Backend:**
 
-## Further help
+1. **Navegue até o diretório frontend:** Execute o comando `cd frontend`.
+2. **Execute o backend:** Execute o comando `npm run start:backend`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Executando o Frontend:**
+
+1. **Navegue até o diretório frontend:** Execute o comando `cd frontend`.
+2. **Execute o frontend:** Execute o comando `npm run start:frontend`.
+
+**Executando Backend e Frontend em Conjunto:**
+
+1. **Navegue até o diretório frontend:** Execute o comando `cd frontend`.
+2. **Inicie a aplicação:** Execute `npm run:all`
+
+## Endpoints da API
+
+A API REST fornece os seguintes endpoints para interagir com os dados dos livros:
+
+| Método | Endpoint                  | Descrição                      |
+| ------ | ------------------------- | -------------------------------|
+| GET    | `/api/livros`             | Lista todos os livros.         |
+| GET    | `/api/livros/{id}`        | Recupera um livro pelo ID.     |
+| POST   | `/api/livros`             | Adiciona um novo livro.        |
+| PUT    | `/api/livros/{id}`        | Atualiza um livro existente.   |
+| DELETE | `/api/livros/{id}`        | Remove um livro pelo ID.       |
+
+**Observação:** Assegure-se de que o backend esteja em execução antes de acessar os endpoints da API.
