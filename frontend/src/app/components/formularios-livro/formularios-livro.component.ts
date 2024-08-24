@@ -7,6 +7,7 @@ import {FormBuilder, FormGroup, FormsModule, Validators} from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { LivroService } from '../../services/livro.service';
 import { Livro } from "../../models/livro.model"
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-formularios-livro',
   standalone: true,
@@ -16,7 +17,7 @@ import { Livro } from "../../models/livro.model"
 })
 export class FormulariosLivroComponent implements OnInit  {
   livroForm: FormGroup;
-  constructor(private fb: FormBuilder,private livroservice: LivroService) {
+  constructor(private fb: FormBuilder,private livroservice: LivroService,private router: Router) {
     this.livroForm = this.fb.group({
       titulo: ['', Validators.required],
       autor: ['', Validators.required],
@@ -45,6 +46,7 @@ export class FormulariosLivroComponent implements OnInit  {
         ano: this.livroForm.value.ano
       };
       this.livroservice.addLivro(livro).subscribe();
+      this.router.navigate(['/']);
     }
 
   }

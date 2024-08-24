@@ -11,36 +11,36 @@
       "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\dtos\\livrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|d:\\embalsoft\\embalsoft\\backend\\livraria.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|d:\\embalsoft\\embalsoft\\backend\\livraria.api\\controller\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\controller\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|d:\\embalsoft\\embalsoft\\backend\\livraria.api\\data\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\data\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|d:\\embalsoft\\embalsoft\\backend\\livraria.api\\livraria.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\livraria.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|d:\\embalsoft\\embalsoft\\backend\\livraria.api\\livraria.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\livraria.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|d:\\embalsoft\\embalsoft\\backend\\livraria.api\\data\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\data\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|d:\\embalsoft\\embalsoft\\backend\\livraria.api\\data\\livrocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\data\\livrocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|d:\\embalsoft\\embalsoft\\backend\\livraria.api\\livraria.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\livraria.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|d:\\embalsoft\\embalsoft\\backend\\livraria.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|d:\\embalsoft\\embalsoft\\backend\\livraria.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|d:\\embalsoft\\embalsoft\\backend\\livraria.api\\livraria.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\livraria.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|d:\\embalsoft\\embalsoft\\backend\\livraria.api\\data\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\data\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|d:\\embalsoft\\embalsoft\\backend\\livraria.api\\data\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC5FB8AE-BA36-4C5C-AFAC-114A3DDDD959}|Livraria.Api\\Livraria.Api.csproj|solutionrelative:livraria.api\\data\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,31 +50,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Livro.cs",
+              "DocumentMoniker": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Models\\Livro.cs",
+              "RelativeDocumentMoniker": "Livraria.Api\\Models\\Livro.cs",
+              "ToolTip": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Models\\Livro.cs",
+              "RelativeToolTip": "Livraria.Api\\Models\\Livro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T01:30:55.599Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "LivroRepository.cs",
               "DocumentMoniker": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Data\\LivroRepository.cs",
               "RelativeDocumentMoniker": "Livraria.Api\\Data\\LivroRepository.cs",
               "ToolTip": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Data\\LivroRepository.cs",
               "RelativeToolTip": "Livraria.Api\\Data\\LivroRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T15:12:49.782Z"
+              "WhenOpened": "2024-08-24T15:12:49.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ILivroRepository.cs",
               "DocumentMoniker": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Data\\ILivroRepository.cs",
               "RelativeDocumentMoniker": "Livraria.Api\\Data\\ILivroRepository.cs",
               "ToolTip": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Data\\ILivroRepository.cs",
               "RelativeToolTip": "Livraria.Api\\Data\\ILivroRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T15:05:07.338Z"
+              "WhenOpened": "2024-08-24T15:05:07.338Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -84,39 +100,27 @@
               "RelativeDocumentMoniker": "Livraria.Api\\DTOs\\LivroDTO.cs",
               "ToolTip": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\DTOs\\LivroDTO.cs",
               "RelativeToolTip": "Livraria.Api\\DTOs\\LivroDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-24T01:39:47.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "LivroContext.cs",
               "DocumentMoniker": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Data\\LivroContext.cs",
               "RelativeDocumentMoniker": "Livraria.Api\\Data\\LivroContext.cs",
               "ToolTip": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Data\\LivroContext.cs",
               "RelativeToolTip": "Livraria.Api\\Data\\LivroContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T01:35:44.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Livro.cs",
-              "DocumentMoniker": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Models\\Livro.cs",
-              "RelativeDocumentMoniker": "Livraria.Api\\Models\\Livro.cs",
-              "ToolTip": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Models\\Livro.cs",
-              "RelativeToolTip": "Livraria.Api\\Models\\Livro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T01:30:55.599Z",
+              "WhenOpened": "2024-08-24T01:35:44.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Livraria.Api.csproj",
               "DocumentMoniker": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Livraria.Api.csproj",
               "RelativeDocumentMoniker": "Livraria.Api\\Livraria.Api.csproj",
@@ -124,11 +128,12 @@
               "RelativeToolTip": "Livraria.Api\\Livraria.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-24T01:26:25.806Z"
+              "WhenOpened": "2024-08-24T01:26:25.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Livraria.Api.http",
               "DocumentMoniker": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Livraria.Api.http",
               "RelativeDocumentMoniker": "Livraria.Api\\Livraria.Api.http",
@@ -136,11 +141,12 @@
               "RelativeToolTip": "Livraria.Api\\Livraria.Api.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-08-24T01:26:18.163Z"
+              "WhenOpened": "2024-08-24T01:26:18.163Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\appsettings.json",
               "RelativeDocumentMoniker": "Livraria.Api\\appsettings.json",
@@ -148,32 +154,34 @@
               "RelativeToolTip": "Livraria.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-24T01:26:13.073Z"
+              "WhenOpened": "2024-08-24T01:26:13.073Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Program.cs",
               "RelativeDocumentMoniker": "Livraria.Api\\Program.cs",
               "ToolTip": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Program.cs",
               "RelativeToolTip": "Livraria.Api\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBgAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-24T01:02:21.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "LivroController.cs",
               "DocumentMoniker": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Controller\\LivroController.cs",
               "RelativeDocumentMoniker": "Livraria.Api\\Controller\\LivroController.cs",
               "ToolTip": "D:\\embalsoft\\embalsoft\\backend\\Livraria.Api\\Controller\\LivroController.cs",
               "RelativeToolTip": "Livraria.Api\\Controller\\LivroController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T15:27:47.934Z"
+              "WhenOpened": "2024-08-24T15:27:47.934Z",
+              "EditorCaption": ""
             }
           ]
         }

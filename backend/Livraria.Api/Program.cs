@@ -12,10 +12,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAngularApp",
-        builder => builder.AllowAnyOrigin()
-                          .AllowAnyMethod()
-                          .AllowAnyHeader());
+    options.AddPolicy("AllowLocalhost",
+        policyBuilder => policyBuilder
+            .WithOrigins("http://localhost:4200") // Allow requests from this origin
+            .AllowAnyMethod() // Allow any HTTP method
+            .AllowAnyHeader()); // Allow any headers
 });
 var app = builder.Build();
 
@@ -26,7 +27,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseHttpsRedirection();
-app.UseCors("AllowAngularApp");
+app.UseCors("AllowLocalhost");
 
 app.UseHttpsRedirection();
 app.MapControllers();

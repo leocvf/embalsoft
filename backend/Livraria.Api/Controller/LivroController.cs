@@ -2,6 +2,7 @@
 using Livraria.Api.Models;
 using Livraria.Api.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 namespace Livraria.Api.Controller
 {
     [ApiController]
@@ -21,6 +22,7 @@ namespace Livraria.Api.Controller
             var livro = await _livroRepository.GetLivros();
             var livroDTO = livro.Select(l => new LivroDTO
             {
+                Id = l.Id,
                 Titulo = l.Titulo,
                 Autor = l.Autor,
                 Genero = l.Genero,
@@ -36,6 +38,7 @@ namespace Livraria.Api.Controller
 
             var livroDTO = new LivroDTO
             {
+                Id = livro.Id,
                 Titulo = livro.Titulo,
                 Autor = livro.Autor,
                 Genero = livro.Genero,
@@ -54,7 +57,17 @@ namespace Livraria.Api.Controller
                 Ano = livrodto.Ano,
             };
             await _livroRepository.AddLivroId(livro);
-            return CreatedAtAction(nameof(GetLivro), new { id = livro.Id }, livrodto);
+            Console.WriteLine(livro.Id);
+            var livroDTO = new LivroDTO
+            {
+                Id = livro.Id,
+                Titulo = livro.Titulo,
+                Autor = livro.Autor,
+                Genero = livro.Genero,
+                Ano = livro.Ano,
+            };
+
+            return CreatedAtAction(nameof(GetLivro), new { id = livro.Id }, livroDTO);
         }
         [HttpPut("{id}")]
         public async Task<ActionResult> UpdateLivro(int id, LivroDTO livrodto)
