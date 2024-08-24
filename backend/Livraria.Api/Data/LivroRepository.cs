@@ -18,7 +18,12 @@ namespace Livraria.Api.Data
         }
         public async Task<Livro> GetLivroId(int id)
         {
-            return await _context.Livros.FindAsync(id);
+            var livro = await _context.Livros.FindAsync(id);
+            if (livro == null)
+            {
+                throw new InvalidOperationException($"Livro com id: {id} não encontrado");
+            }
+            return livro;
         }
         public async Task AddLivroId(Livro livro)
         {
