@@ -19,5 +19,9 @@ export class LivroService {
   addLivro(livro: Livro): Observable<Livro> {
     return this.http.post<Livro>(this.apiURL, livro);
   }
+  
+  deleteLivro(id: number): Observable<void> {
+    return this.http.delete<void>(`${this.apiURL}/${id}`);
+  }
 
 }
