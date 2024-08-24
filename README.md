@@ -19,7 +19,7 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu sistema antes de
 ## Configuração do Frontend (Angular)
 
 1. **Navegue até o diretório frontend:** Execute o comando `cd frontend`.
-2. **Instale as dependências:** Execute `npm install` para instalar os pacotes Node.js, incluindo o `npm-run-all`.
+2. **Instale as dependências:** Execute `npm install` para instalar os pacotes Node.js.
 
 ## Executando o Projeto
 
@@ -38,7 +38,7 @@ Você pode executar o backend e o frontend separadamente ou em conjunto:
 **Executando Backend e Frontend em Conjunto:**
 
 1. **Navegue até o diretório frontend:** Execute o comando `cd frontend`.
-2. **Inicie a aplicação:** Execute `npm run:all`
+2. **Inicie a aplicação:** Execute `npm run start:all`
 
 ## Endpoints da API
 
